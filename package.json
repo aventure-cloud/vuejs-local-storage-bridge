@@ -1,5 +1,5 @@
 {
-  "name": "vuejs-localstorage",
+  "name": "vuejs-local-storage-bridge",
   "version": "0.0.1",
   "description": "local-storage-bridge integration for VueJs framework",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aventure-cloud/vuejs-localstorage.git"
+    "url": "git+https://github.com/aventure-cloud/vuejs-local-storage-bridge.git"
   },
   "keywords": [],
   "author": {
@@ -19,9 +19,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/aventure-cloud/vuejs-localstorage/issues"
+    "url": "https://github.com/aventure-cloud/vuejs-local-storage-bridge/issues"
   },
-  "homepage": "https://github.com/aventure-cloud/vuejs-localstorage#readme",
+  "homepage": "https://github.com/aventure-cloud/vuejs-local-storage-bridge#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.1",
