@@ -1,6 +1,6 @@
 "use strict";
 
-import LocalStorage from 'LocalStorage';
+import LocalStorage from 'local-storage-bridge';
 
 export default {
     install: function(Vue, config) {
