@@ -31,6 +31,6 @@
     "nyc": "^11.4.1"
   },
   "dependencies": {
-    "local-storage-bridge": "^1.0.2"
+    "local-storage-bridge": "^1.0.3"
   }
 }
