@@ -1,8 +1,8 @@
 {
   "name": "vuejs-local-storage-bridge",
-  "version": "0.0.2",
-  "description": "local-storage-bridge integration for VueJs framework",
-  "main": "index.js",
+  "version": "0.0.5",
+  "description": "local-storage-bridge integration for VueJs applications",
+  "main": "lib/index.js",
   "scripts": {
     "build": "babel ./src -d ./lib",
     "test": "nyc mocha --require babel-core/register",

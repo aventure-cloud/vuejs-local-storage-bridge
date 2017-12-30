@@ -1,13 +1,21 @@
 # Vuejs localstorage
-local-storage-bridge integration with VueJs framework
+local-storage-bridge integration for VueJs applications.
+
+
+- **Author:** Valerio Barbera - [valerio@aventuresrl.com](mailto:valerio@aventuresrl.com)
+- **Author Website:** [www.aventuresrl.com](target="_blank":https://www.aventuresrl.com)
+
 
 ## Install
 `npm install --save vuejs-local-storage-bridge`
 
+
 ## Integrate
 ```javascript
-Vue.use(require('vuejs-local-storage-bridge'), {prefix: 'myappname_'});
+import ls from 'vuejs-local-storage-bridge';
+Vue.use(ls, {prefix: 'myappname_'});
 ```
+
 
 ## Use
 Inside your vuejs components:
@@ -15,12 +23,18 @@ Inside your vuejs components:
 export default {
     
     mounted() {
-        this.$localStorage.set('user', {
-            first_name: 'Valerio',
-            last_name: 'Barbera'
-        });
+        this.$localStorage.set('users', [
+            {
+                first_name: 'Valerio',
+                last_name: 'Barbera'
+            },
+            {
+                first_name: 'Sebastiano',
+                last_name: 'Sicignano'
+            }
+        ]);
         
-        console.log(this.$localStorage.get('user'));
+        console.log(this.$localStorage.get('users'));
     }
     
 }
