@@ -1,7 +1,7 @@
 # Vuejs Local Storage Bridge
 local-storage-bridge integration for VueJs applications.
 
-See more details: [local-storage-bridge](https://www.npmjs.com/package/local-storage-bridge)
+See more details: [@aventure-cloud/local-storage](https://www.npmjs.com/package/@aventure-cloud/local-storage)
 
 
 - **Author:** Valerio Barbera - [valerio@aventuresrl.com](mailto:valerio@aventuresrl.com)
