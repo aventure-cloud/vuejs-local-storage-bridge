@@ -1,6 +1,6 @@
 {
   "name": "@aventure-cloud/vuejs-local-storage-bridge",
-  "version": "0.0.9",
+  "version": "0.0.11",
   "description": "local-storage-bridge integration for VueJs applications",
   "main": "lib/index.js",
   "scripts": {
@@ -31,6 +31,6 @@
     "nyc": "^11.4.1"
   },
   "dependencies": {
-    "@aventure-cloud/local-storage": "^0.0.1"
+    "@aventure-cloud/local-storage": "0.0.3"
   }
 }
