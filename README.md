@@ -9,12 +9,12 @@ See more details: [@aventure-cloud/local-storage](https://www.npmjs.com/package/
 
 
 ## Install
-`npm install --save vuejs-local-storage-bridge`
+`npm install --save @aventure-cloud/vuejs-local-storage-bridge`
 
 
 ## Integrate
 ```javascript
-import ls from 'vuejs-local-storage-bridge';
+import ls from '@aventure-cloud/vuejs-local-storage-bridge';
 Vue.use(ls, {prefix: 'myappname_'});
 ```
 
