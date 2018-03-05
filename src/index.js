@@ -3,9 +3,9 @@
 import LocalStorage from '@aventure-cloud/local-storage';
 
 export default {
-    install: function(Vue, config) {
+    install: function(Vue, options) {
         Object.defineProperty(Vue.prototype, '$localStorage', {
-            value: new LocalStorage(config)
+            value: new LocalStorage(options)
         });
     }
 }

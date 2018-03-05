@@ -15,7 +15,10 @@ See more details: [@aventure-cloud/local-storage](https://www.npmjs.com/package/
 ## Integrate
 ```javascript
 import ls from '@aventure-cloud/vuejs-local-storage-bridge';
-Vue.use(ls, {prefix: 'myappname_'});
+Vue.use(ls, {
+    resetOnLoad: true|false,
+    prefix: 'myappname_'
+});
 ```
 
 
